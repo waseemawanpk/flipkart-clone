@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* color: white; */
+    background-color: var(--main-bg-color);
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    /* background-color: black; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(250, 4, 45);
+    font-weight: bolder;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+
+}
+
+.search input {
+    width: 460px;
+    height: 27px;
+    border-radius: 5px solid rgb(15, 247, 73);
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(0, 20, 20);
+    background-color: rgb(18, 145, 145);
+    border: 2px solid rgb(0, 20, 20);
+    border-radius: 8px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.slider {
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Dancing Script', cursive;
+}
+footer {
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 12vh;
+    color: white;
+    background-color: var(--main-bg-color);
+    /* font-family: 'Dancing Script', cursive; */
+}
